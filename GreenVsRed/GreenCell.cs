@@ -8,7 +8,7 @@ namespace GreenVsRed
 {
     class GreenCell : Cell
     {
-        public int CellValue { get; set; }
+        public int CellValue { get; private set; }
 
 
         public GreenCell(int positionX, int positionY, int cellValue)

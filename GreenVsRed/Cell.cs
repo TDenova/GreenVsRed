@@ -9,8 +9,8 @@ namespace GreenVsRed
     abstract class Cell
     {
         // Cordinates of cell
-        public int PositionX { get; set; }
-        public int PositionY { get; set; }
+        public int PositionX { get; protected set; }
+        public int PositionY { get; protected set; }
 
         public int SumOfNeighbours { get; set; }
 

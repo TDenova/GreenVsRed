@@ -9,7 +9,7 @@ namespace GreenVsRed
     class RedCell : Cell
     {
 
-        public int CellValue { get; set; }
+        public int CellValue { get; private set; }
         
         
 
