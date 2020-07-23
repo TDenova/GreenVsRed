@@ -6,11 +6,11 @@
        - Red Cell
       
 
-Cell methods:                                              Grid methods:
+Cell methods:                                              
 - abstract int GetCellType()
-- abstract int GetValue()                                  - int CheckNeighboursSum(Cell cell, Cell[,] cells)
-- abstract int CheckNextValue                              - List<Cell> FindNeighbours(Cell centralCell, Cell[,] cells)
-- int[] GetCellPosition(int sum)                           - bool CheckTwoCellsPosition(Cell[,] cells, Cell cell)
+- abstract int GetValue()                                  
+- abstract int CheckNextValue                              
+- int[] GetCellPosition(int sum)                           
                                                            
     Green & Red Cell methods:
     - override int GetCellType()
@@ -18,3 +18,7 @@ Cell methods:                                              Grid methods:
     - override int CheckNextValue(int sum)
     
     
+Grid methods:
+- int CheckNeighboursSum(Cell cell, Cell[,] cells)
+- List<Cell> FindNeighbours(Cell centralCell, Cell[,] cells)
+- bool CheckTwoCellsPosition(Cell[,] cells, Cell cell)
